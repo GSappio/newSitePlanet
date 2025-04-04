@@ -1,0 +1,33 @@
+  const bairrosMongagua = [
+    "Balneário Agenor de Campos",
+    "Balneário Aguapeú",
+    "Balneário Atlântica",
+    "Balneário Europa",
+    "Balneário Flórida Mirim",
+    "Balneário Itaoca",
+    "Balneário Itaguaí",
+    "Balneário Jussara",
+    "Balneário Leonor",
+    "Balneário N. S. Fátima",
+    "Balneário Plataforma",
+    "Balneário Praia Grande",
+    "Balneário Regina Maria",
+    "Balneário Santa Eugênia",
+    "Balneário Vera Cruz",
+    "Centro",
+    "Pedreira",
+    "Vera Cruz",
+    "Vila Atlântica",
+    "Vila Beira Mar",
+    "Vila Caiaú",
+    "Vila Inah",
+    "Vila Mongaguá",
+    "Vila Oceanópolis",
+    "Vila Operária",
+    "Vila São Paulo",
+    "Vila São João",
+    "Vila São Paulo",
+    "Aldeia Itaóca"
+  ]
+
+  export default bairrosMongagua
