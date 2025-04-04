@@ -19,11 +19,12 @@ const CardItem = ({ data }) => {
                 <p className="text-gray-600">{item.description}</p>
               </div>
               <div className={`flex px-4 py-4 ${item.price ? 'justify-between' : 'justify-center'}`}>
-              {item.price && (
-                <div className={`font-semibold text-sm border-b-2 w-4/9 border-green-600 bg-green-600 text-white p-2 px-4 rounded ${item.price ? 'w-11-12' : 'w-4/9'}`}>Normal:  <span className='text-bold'>{item.price}</span></div>
-              )}
-              <div className={`font-semibold text-sm border-b-2 border-green-600 bg-green-600 text-white  p-2 px-4 rounded ${item.price ? 'w-4/9 ' : 'w-11/12'}`}>Turbo: <span className='text-bold'>{item.priceTurbo}</span></div>
-            </div>
+                {item.price && (
+                  <div className={`font-semibold text-sm border-b-2 w-4/9 border-green-600 bg-green-600 text-white p-2 px-4 rounded ${item.price ? 'w-11-12' : 'w-4/9'}`}>Normal:  <span className='text-bold'>{item.price}</span></div>
+                )}
+                <div className={`font-semibold text-sm border-b-2 border-green-600 bg-green-600 text-white  p-2 px-4 rounded ${item.price ? 'w-4/9 ' : 'w-11/12'}`}>Turbo:
+                  <span className='text-bold'>{item.priceTurbo}</span></div>
+              </div>
             </>
           </div>
         ))

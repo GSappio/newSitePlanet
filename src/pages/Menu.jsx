@@ -44,7 +44,6 @@ export default function Menu() {
         <div className="py-10 md:px-12 xl:px-40">
           <p className="w-full px-5 py-2 text-3xl font-medium">{activeSection}</p>
           {activeSection === "Lanches" && <CardProductMenu data={burguers} />}
-          {activeSection === "Bebidas" && <CardProductMenu data={drinks} />}
         </div>
       </div>
     </>
