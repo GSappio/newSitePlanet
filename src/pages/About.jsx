@@ -6,10 +6,24 @@ const SobreNos = () => {
   return (
     <>
       <WhatsAppButton />
-      <section className="py-16 bg-gray-50 px-4">
+      <section className="py-12 bg-gray-50 px-4">
+
         <div className="container mx-auto text-center">
-          <h2 className="text-4xl font-bold text-gray-800 mb-6">Sobre Nós</h2>
-          <p className="text-xl text-gray-600 mb-20">
+          <h1 className="text-4xl font-semibold text-center text-[#b4270e] mb-8">
+            Sobre Nós
+          </h1>
+          {/* Seção de imagem de equipe ou loja */}
+          <div className="mt-16 relative">
+            <img
+              src={fundosobre} // Substitua com a imagem da sua equipe ou loja
+              alt="Nossa Equipe"
+              className="w-full h-50 object-cover rounded-lg shadow-lg"
+            />
+            <div className="absolute inset-0 flex items-center justify-center bg-opacity-50 text-white text-4xl" >
+              Somos uma família apaixonada por hambúrgueres!
+            </div>
+          </div>
+          <p className="text-2xl text-gray-600 mb-20 mt-10">
             Na nossa hamburgueria, a paixão por um bom hambúrguer é o que nos move. Com ingredientes frescos e selecionados,
             criamos uma experiência única para nossos clientes.
           </p>
@@ -38,18 +52,6 @@ const SobreNos = () => {
                 Nossa equipe é formada por profissionais apaixonados pela gastronomia e pelo atendimento ao cliente.
                 Cada membro tem um papel fundamental em garantir que sua experiência seja única e inesquecível.
               </p>
-            </div>
-          </div>
-
-          {/* Seção de imagem de equipe ou loja */}
-          <div className="mt-16 relative">
-            <img
-              src={fundosobre} // Substitua com a imagem da sua equipe ou loja
-              alt="Nossa Equipe"
-              className="w-full h-96 object-cover rounded-lg shadow-lg"
-            />
-            <div className="absolute inset-0 flex items-center justify-center bg-opacity-50 text-white text-2xl">
-              Somos uma família apaixonada por hambúrgueres!
             </div>
           </div>
 

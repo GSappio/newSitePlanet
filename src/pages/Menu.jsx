@@ -19,21 +19,21 @@ export default function Menu() {
           <div className="flex space-x-4">
             <button
               className={`${activeSection === "Lanches" ? "bg-blue-500" : "bg-gray-400"
-                } px-4 py-2 rounded-lg text-white hover:scale-105 duration-300`}
+                } px-4 py-2 rounded-lg text-white hover:scale-105 duration-300 cursor-pointer`}
               onClick={() => handleSectionChange("Lanches")}
             >
               Lanches
             </button>
             <button
               className={`${activeSection === "Combos" ? "bg-blue-500" : "bg-gray-400"
-                } px-4 py-2 rounded-lg text-white hover:scale-105 duration-300`}
+                } px-4 py-2 rounded-lg text-white hover:scale-105 duration-300 cursor-pointer`}
               onClick={() => handleSectionChange("Combos")}
             >
               Combos
             </button>
             <button
               className={`${activeSection === "Bebidas" ? "bg-blue-500" : "bg-gray-400"
-                } px-4 py-2 rounded-lg text-white hover:scale-105 duration-300`}
+                } px-4 py-2 rounded-lg text-white hover:scale-105 duration-300 cursor-pointer`}
               onClick={() => handleSectionChange("Bebidas")}
             >
               Bebidas
